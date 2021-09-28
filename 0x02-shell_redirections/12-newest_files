@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -t | hea
+ls -t | head
