@@ -5,6 +5,6 @@ LIMIT=10
 i=0
 until [[ i -eq LIMIT ]]
 do
-    echo "Best Schol"
-    ((i+=1))
+         echo "Best Schol"
+	 ((i+=1))
 done
