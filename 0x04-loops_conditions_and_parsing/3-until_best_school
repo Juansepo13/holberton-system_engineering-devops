@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
-# Script that write 10 times Best School in console with Until.
-
+# 
 LIMIT=10
 i=0
 until [[ i -eq LIMIT ]]
 do
-         echo "Best Schol"
-	 ((i+=1))
+	echo "Best School"
+	((i+=1))
 done
