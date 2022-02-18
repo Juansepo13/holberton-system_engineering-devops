@@ -3,9 +3,9 @@
 # With a sleep 2 in between each iteration
 # I am invincible!!! when receiving a SIGTERM signal
 i=0
+trap "echo I am invincible!!!" SIGTERM
 while [ $i -le 3 ]
 do
-    trap "echo I am invincible!!!" SIGTERM
     echo "To infinity and beyond"
     sleep 2
 done
