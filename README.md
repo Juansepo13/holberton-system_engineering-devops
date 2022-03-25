@@ -25,6 +25,8 @@ Cohort 16.
 
 ### Author
 ***
-*Holberton School Student*
+*Holberton School Student
 
-Juan Sebastian Posada  - [Github](https://github.com/Juansepo13) - [Twiter](https://twitter.com/@JuanSeb35904130)
+*
+
+### Juan Sebastian Posada  - [Github](https://github.com/Juansepo13) - [Twiter](https://twitter.com/@JuanSeb35904130)
