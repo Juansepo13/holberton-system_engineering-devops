@@ -1,0 +1,13 @@
+SHA256:9IsUStvu7UCQXOblkbkmrjpg7C2zKkYL1lo5QxpBDZ4 juansepo13@DESKTOP-T8IM7RS
+The key's randomart image is:
++---[RSA 3072]----+
+|.oo     o oo     |
+|.... . = oo.     |
+| E.   = + ..     |
+| . . . *.oo      |
+| .= . o.So.      |
+|.++*   +.. .     |
+|+o+oo  .+ .      |
+|.++ o .. o       |
+|+..+.o  ..o      |
++----[SHA256]-----+
