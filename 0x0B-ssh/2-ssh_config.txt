@@ -4,3 +4,4 @@
 Host 54.162.200.118
 	PasswordAuthentication no
 	IdentityFile ~/.ssh/school
+    
