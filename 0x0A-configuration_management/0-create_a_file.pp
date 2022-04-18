@@ -1,6 +1,6 @@
 # Create a file
 
-file { '/tmp/school':
+file {'/tmp/school':
   ensure  => 'present',
   mode    => '0744',
   group   => 'www-data',
