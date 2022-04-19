@@ -53,8 +53,8 @@ Cohort 16.
 | [13-change_group](https://github.com/Juansepo13/holberton-system_engineering-devops/blob/main/0x01-shell_permissions/13-change_group) | Write a script that changes the group owner to school for the file hello |
 | [100-change_owner_and_group](https://github.com/Juansepo13/holberton-system_engineering-devops/blob/main/0x01-shell_permissions/100-change_owner_and_group) |	   Write a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.    |
 | [101-symbolic_link_permissions](https://github.com/Juansepo13/holberton-system_engineering-devops/blob/main/0x01-shell_permissions/101-symbolic_link_permissions) |	Write a script that changes the owner and the group owner of _hello to vincent and staff respectively.       |
-| [102-if_only](https://github.com/Juansepo13/holberton-system_engineering-devops/blob/main/0x01-shell_permissions/102-if_only) |	       |
-| [103-Star_Wars](https://github.com/Juansepo13/holberton-system_engineering-devops/blob/main/0x01-shell_permissions/103-Star_Wars) |	Write a script that changes the owner of the file hello to vincent only if it is owned by the user guillaume.       |
+| [102-if_only](https://github.com/Juansepo13/holberton-system_engineering-devops/blob/main/0x01-shell_permissions/102-if_only) | Write a script that changes the owner of the file hello to vincent only if it is owned by the user guillaume.	       |
+| [103-Star_Wars](https://github.com/Juansepo13/holberton-system_engineering-devops/blob/main/0x01-shell_permissions/103-Star_Wars) |	Write a script that will play the StarWars IV episode in the terminal.  |
 
 
 ### Author
