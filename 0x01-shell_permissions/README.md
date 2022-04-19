@@ -7,6 +7,7 @@ For Holberton School
 Cohort 16.
 ```
 ![Alt text](https://linuxcommand.org/images/file_permissions.png)
+
 ***
 ## General
 
