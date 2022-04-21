@@ -1,7 +1,7 @@
 # 0x0C. Web server
 ***
 ## This is a README.md for the repository
-### 0x0C. Web server
+* 0x0C. Web server
 ```
 For Holberton School
 Cohort 16.
