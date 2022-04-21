@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Bash script containing commands to automatically configure a Ubuntu machine to respect above requirements
+
+### Update operating system packages.
+sudo apt update
+### Install nginx.
+sudo apt -y install nginx
+### Change de defaul content of index.html for nginx.
+echo 'Hello World' > index.html
+### Changue Location on Index HTML
+sudo mv index.html /var/www/html/
+### The redirection must be a “301 Moved Permanently”.
+sudo sed -i "/listen 80 default_server/a rewrite ^/redirect_me https://www.youtube.com/watch?v=dQw4w9WgXcQ permanent;" /etc/nginx/sites-available/default
+### Start service nginx.
+sudo service nginx restart
