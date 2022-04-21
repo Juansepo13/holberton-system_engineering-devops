@@ -80,24 +80,14 @@ A good Software Engineer is a lazy [Software Engineer](https://www.techwell.com/
 
 | File                 | Details                                    |
 |--------------------- | ------------------------------------------ |
-| []() |	       |
-| []() |	       |
-| []() |	       |
-| []() |	       |
-| []() |	       |
-| []() |	       |
-| []() |	       |
-| []() |	       |
-| []() |	       |
-| []() |	       |
-| []() |	       |
-| []() |	       |
-| []() |	       |
-| []() |	       |
-| []() |	       |
-| []() |	       |
-| []() |	       |
-| []() |	       |
+| [0-transfer_file]() |	Write a Bash script that transfers a file from our client to a server:  |
+| [1-install_nginx_web_server]() | Web servers are the piece of software generating and serving HTML pages, let’s install one!	       |
+| [2-setup_a_domain_name]() | .TECH Domains is one of the top domain providers. They are known for the stability and quality of their DNS hosting solution. We partnered with .TECH Domains so that you can learn about DNS. .TECH Domains worked with domain name registrars to give you access to a free domain name for a year. Please get the promo code in your tools space. Feel free to drop a thank you tweet for .TECH Domains. Provide the domain name in your answer file.	       |
+| [3-redirection]() |	Configure your Nginx server so that /redirect_me is redirecting to another page.       |
+| [4-not_found_page_404]() |Configure your Nginx server to have a custom 404 page that contains the string `Ceci n'est pas une page`.	       |
+| [5-design_a_beautiful_404_page]() |Note that if you decide to have your creative 404 page as the default one, make sure that it still contains the string Ceci n'est pas une page (otherwise the checker will fail your previous project). Submit the URL of your 404 page in the field bellow. Please, remember that these blogs must be written in English to further your technical ability in a variety of settings. It is your responsibility to request a review for this task from a peer before the project’s deadline. If no peers have been reviewed, you should request a review from a TA or staff member.	       |
+| [7-puppet_install_nginx_web_server.pp]() |Time to practice configuring your server with Puppet! Just as you did before, we’d like you to install and configure an Nginx server using Puppet instead of Bash. To save time and effort, you should also include resources in your manifest to perform a 301 redirect when querying /redirect_me.	       |
+
 
 
 ### Author
