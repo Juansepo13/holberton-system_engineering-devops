@@ -1,7 +1,7 @@
-# 
+# 0x0D. Web stack debugging #0
 ***
 ## This is a README.md for the repository
-### 
+### 0x0D. Web stack debugging #0
 ```
 For Holberton School
 Cohort 16.
