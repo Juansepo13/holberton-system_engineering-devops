@@ -21,7 +21,8 @@ Cohort 16.
 ## Resources
 * [Network basics](https://intranet.hbtn.io/concepts/33)
 * [Web stack debugging](https://intranet.hbtn.io/concepts/68)
-![image2](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/9/45dffb0b1da8dc2ce47e340d7f88b05652c0f486.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220425%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220425T152845Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ce027ab975d49becd77ac954e1ee7cee109ab5857054d4334c7046bdeea4af27)
+
+![i](https://imgur.com/6vpDtVs)
 
 ## Files included
 
