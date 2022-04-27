@@ -1,0 +1,20 @@
+sudo apt-get -y update
+sudo apt-get -y upgrade
+
+#instalar Nginx
+sudo apt-get -y install nginx
+
+# permitir firewall
+sudo ufw allow 'Nginx HTTP'
+
+# redireccion de la pagina de inicio
+sudo echo 'Hello World' > /var/www/html/index.nginx-debian.html
+
+# sed inserta una cadena de texto, por coincidencia o remplazo en la coincidencia
+sed -i '/listen 80 default_server;/a rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
+
+# configurar nginex con una cabecera personalizada
+sed -i "/listen 80 default_server;/a add_header X-Served-By $HOSTNAME;" /etc/nginx/sites-available/default
+
+#arrancamos el server
+service nginx start
