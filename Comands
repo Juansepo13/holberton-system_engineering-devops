@@ -1,0 +1,11 @@
+# web-01
+ssh -v ubuntu@34.148.148.119
+
+# web-02
+ssh -v ubuntu@54.82.50.78
+
+# Load Balancer
+ssh -v ubuntu@54.82.50.78
+
+#subir archivos
+../0x0C-web_server/0-transfer_file <file_to_upload> <ip> ubuntu ~/.ssh/id_rsa
