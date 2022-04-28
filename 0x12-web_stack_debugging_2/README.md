@@ -1,4 +1,4 @@
-*# 0x12. Depuración de pila web #2
+# 0x12. Depuración de pila web #2
 ***
 ## This is a README.md for the repository
 ### 0x12. Depuración de pila web #2
