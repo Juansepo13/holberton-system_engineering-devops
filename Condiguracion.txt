@@ -18,3 +18,10 @@ sed -i "/listen 80 default_server;/a add_header X-Served-By $HOSTNAME;" /etc/ngi
 
 #arrancamos el server
 service nginx start
+
+# ejecutar un script como otro usuario
+sudo -u "<user>" <script>
+
+
+#cambiar a puerto 8080 el default de sites available/
+sed - i 's/80/8080/g' /etec/nginx/sites-available/default
