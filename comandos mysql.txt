@@ -1,0 +1,12 @@
+# create a new user in mysql
+CREATE USER 'username'@'host' IDENTIFIED WITH authentication_plugin BY 'password';
+# CREATE USER 'holberton_user'@'localhost' IDENTIFIED BY 'projectcorrection280hbtn'; 
+
+#darle privilegios
+GRANT ALL PRIVILEGES ON *.* TO 'holberton_user'@'localhost';
+
+#quitar privilegios
+REVOKE ALL PRIVILEGES ON *.* FROM 'holberton_user'@'localhost';
+
+#asignar privilegios de replica unicamente
+GRANT REPLICATION CLIENT ON *.* TO 'holberton_user'@'localhost';

@@ -1,0 +1,4 @@
+From Ornella Russo to Everyone 05:11 PM
+https://computingforgeeks.com/how-to-install-mysql-on-ubuntu-focal/
+esa guia ^
+https://www.tecmint.com/fix-mysql-error-1819-hy000/ para cambiar esos permisos del password ^
