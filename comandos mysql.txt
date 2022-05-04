@@ -10,3 +10,66 @@ REVOKE ALL PRIVILEGES ON *.* FROM 'holberton_user'@'localhost';
 
 #asignar privilegios de replica unicamente
 GRANT REPLICATION CLIENT ON *.* TO 'holberton_user'@'localhost';
+
+#asignar permisos 
+GRANT SELECT ON tyrell_corp.* TO 'holberton_user'@'localhost'
+
+
+
+#PREGUNTA 2
+mysql> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
+| tyrell_corp        |
++--------------------+
+5 rows in set (0.01 sec)
+
+mysql> use tyrell_corp;
+Database changed
+mysql> SHOW TABLES;
+Empty set (0.00 sec)
+
+mysql> CREATE TABLE nexus6 (id INT, name VARCHAR(50));
+Query OK, 0 rows affected (0.53 sec)
+
+mysql> INSERT INTO nexus6 (id, name) VALUES (1, 'leon');
+Query OK, 1 row affected (0.04 sec)
+
+mysql> SELECT * FROM nexus6;
++------+------+
+| id   | name |
++------+------+
+|    1 | leon |
++------+------+
+1 row in set (0.00 sec)
+
+
+#Pregunta 3
+
+#crear usuario replica_user
+CREATE USER 'replica_user'@'%' IDENTIFIED BY 'projectcorrection280hbtn'; 
+
+# usario con permisos de replicacion
+GRANT REPLICATION SLAVE ON *.* TO 'replica_user'@'%';
+
+#permisos de select para la base usuarios
+GRANT SELECT ON mysql.user TO 'holberton_user'@'localhost';
+
+
+
+
+#Pregunta 4
+CHANGE MASTER TO
+    -> MASTER_HOST=''3.80.116.142',
+    -> MASTER_USER='replica_user',
+    -> MASTER_PASSWORD='holberton',
+    -> MASTER_LOG_FILE=' ';
+
+    -> MASTER_LOG_POS=' ';
+
+
