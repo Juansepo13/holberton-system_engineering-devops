@@ -23,7 +23,7 @@ Cohort 16.
 `ssh -v ubuntu@34.148.148.119`
 
 ## web-02
-`ssh -v ubuntu@54.82.50.78`
+`ssh -v ubuntu@3.90.180.243`
 
 ## Load Balancer
 `ssh -v ubuntu@54.82.50.78`
