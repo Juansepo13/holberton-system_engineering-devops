@@ -12,7 +12,7 @@ Cohort 16.
 
 ## Read or watch:
 
-![Alt text]()
+![img](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/281/hb3pAsO.png)
 
 ## Extra resources around relational:
 
